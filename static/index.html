@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fake Open Graph Protocol Generator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- code base from http://codepen.io/hagata/pen/QjdKXy -->
+        <div class="form">
+            <div class="text-input">
+                <label for="source_url">Source Url</label>
+                <input type="text" name="source_url" id="source_url" placeholder="http:// or https://" />
+            </div>
+            <div class="text-input">
+                <label for="target_url">Target Url</label>
+                <input type="text" name="target_url" id="target_url" placeholder="http:// or https://" />
+            </div>
+            <hr class="separator" />
+            <div class="text-input">
+                <label for="fake_url">Fake Open Graph Url <a id="go_to_url" href="" target="_blank" style="display: none;">(view)</a></label>
+                <input type="text" name="fake_url" id="fake_url" style="cursor: not-allowed" placeholder="input pls `Source Url` and `Target Url`" readonly />
+            </div>
+
+            <a href="http://ogp.me/" target="_blank">Open Graph Protocol (ogp.me)</a>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
