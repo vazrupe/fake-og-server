@@ -30,7 +30,7 @@ you can install it with `pip install -r requirementes.txt`.
 # Reference
 
 - [Open Graph Protocol](http://ogp.me/)
-- [CodePen - Input form focus CSS animation](http://codepen.io/hagata/pen/QjdKXy)
+- [CodePen - Input form focus CSS animation by Genki Hagata](http://codepen.io/hagata/pen/QjdKXy)
 
 # License
 
